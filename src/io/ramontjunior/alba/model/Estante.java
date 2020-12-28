@@ -47,7 +47,7 @@ public class Estante {
             " id='" + id + "'" +
             ", nome='" + nome + "'" +
             ", ativa='" + ativa + "'" +
-            ", livros='" + livros.forEach(action); + "'" + "}";
+            ", livros='" + livros + "'" + "}";
     }
 
 }
