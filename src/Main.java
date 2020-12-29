@@ -9,9 +9,9 @@ public class Main {
         user.setNome("Ramont Junior");
         System.out.println(user.hashCode());
 
+        Estante estante = new Estante();
         ArrayList<Livro> livros = new ArrayList<Livro>();
 
-        Estante estante = new Estante();
         estante.setLivros(livros);
 
         Livro livro = new Livro();

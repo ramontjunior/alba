@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class Estante {
     private int id;
     private String nome;
-    int ativa;
-    ArrayList<Livro> livros;
+    private int ativa;
+    private ArrayList<Livro> livros;
 
 
     public int getId() {
@@ -35,6 +35,10 @@ public class Estante {
 
     public ArrayList<Livro> getLivros() {
         return this.livros;
+    }
+
+    public void adicionaLivro(Livro livro){
+        this.livros.add(livro);
     }
 
     public void setLivros(ArrayList<Livro> livros) {
