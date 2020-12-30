@@ -45,6 +45,10 @@ public class Estante {
       this.livros = livros;
    }
 
+   public void adcLivro(Livro livro){
+      this.livros.add(livro);
+   }
+
    @Override
    public String toString() {
       return "{" +
