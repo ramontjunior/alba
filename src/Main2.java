@@ -17,7 +17,7 @@ public class Main2 {
       estante.setNome("Estante 01");
       estante.setLivros(livros);
 
-      estante.adcLivro(livro);
+      estante.adicionaLivro(livro);
 
       System.out.println(estante.getLivros());
 

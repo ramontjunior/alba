@@ -40,14 +40,14 @@ public class Estante {
    public void adicionaLivro(Livro livro){
       this.livros.add(livro);
    }
-
+   
+   public void removeLivro(Livro livro){
+      this.livros.add(livro);
+   }
    public void setLivros(ArrayList<Livro> livros) {
       this.livros = livros;
    }
 
-   public void adcLivro(Livro livro){
-      this.livros.add(livro);
-   }
 
    @Override
    public String toString() {
