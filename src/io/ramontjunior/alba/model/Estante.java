@@ -42,12 +42,11 @@ public class Estante {
    }
    
    public void removeLivro(Livro livro){
-      this.livros.add(livro);
+      this.livros.remove(livro);
    }
    public void setLivros(ArrayList<Livro> livros) {
       this.livros = livros;
    }
-
 
    @Override
    public String toString() {
